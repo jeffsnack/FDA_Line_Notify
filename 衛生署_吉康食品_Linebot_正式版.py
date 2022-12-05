@@ -70,7 +70,7 @@ list2 = [dict(t) for t in {tuple(d.items()) for d in result}] #刪除重複標�
 for i in list2: #寄送Line通知
     #print(f"【{i[date]}】{i[title]},{i[href]}")
     headers = {
-        "Authorization": "Bearer " + "e3zmhipHIdYrzoJ1S5VwXEzjaGCh1gpKwI07FCmH6y4",
+        "Authorization": "Bearer " + "Line憑證",
         "Content-Type": "application/x-www-form-urlencoded"}
     params = {"message":f"【{i['date']}】{i['title']},{i['href']}"}
     r = requests.post("https://notify-api.line.me/api/notify",
