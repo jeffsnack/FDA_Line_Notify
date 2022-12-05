@@ -78,35 +78,6 @@ for i in list2: #寄送Line通知
     print(r.status_code)  #200              
 
 
-# In[222]:
-
-
-today = date.today()
-oneday=datetime.timedelta(days=1) 
-yesterday=today-oneday
-print(yesterday)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
