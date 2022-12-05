@@ -1,0 +1,2 @@
+# FDA_Line_Notify
+透過爬蟲抓取食藥署網站每日最新動態並傳送Line Notify
